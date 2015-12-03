@@ -10,7 +10,7 @@ URL: http://www.mongodb.org
 Group: Applications/Databases
 Requires: mongodb-org-server = %{version}, mongodb-org-shell = %{version}, mongodb-org-mongos = %{version}, mongodb-org-tools = %{version}
 
-Source0: %{name}-%{version}.tar.gz
+Source0: mongodb-org-2.6.12.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
